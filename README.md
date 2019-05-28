@@ -17,8 +17,6 @@ Current-Progress
 - [x] finished project
 - [ ] deploy on cloud service
 
-Normal Text
-
 <p align="center">
   <b>Some Links:</b><br>
   <a href="#">Link 1</a> |
@@ -28,4 +26,3 @@ Normal Text
   <img src="http://s.4cdn.org/image/title/105.gif">
 </p>
 
-Normal text
