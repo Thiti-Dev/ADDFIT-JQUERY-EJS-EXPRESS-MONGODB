@@ -23,6 +23,6 @@ Current-Progress
   <a href="#">Link 2</a> |
   <a href="#">Link 3</a>
   <br><br>
-  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="100" height="100">
+  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="150" height="120">
 </p>
 
