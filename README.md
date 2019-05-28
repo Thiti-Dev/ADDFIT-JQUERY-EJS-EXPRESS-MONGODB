@@ -18,7 +18,7 @@ Current-Progress
 - [ ] deploy on cloud service
 
 <p align="center">
-  <b>Some Links:</b><br>
+  <b>Contact me By:</b><br>
   <a href="#">Link 1</a> |
   <a href="#">Link 2</a> |
   <a href="#">Link 3</a>
