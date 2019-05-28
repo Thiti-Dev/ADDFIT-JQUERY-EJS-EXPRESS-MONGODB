@@ -3,7 +3,9 @@ This project was created and implemented by [Thiti Mahawannakit](https://www.fac
 ## How to run ( วิธีการรัน )
 `npm run server`
 
-## Language that used
+
+
+**Note: The lists below here are the language used**
 ### main
 javascript javascriot(jquery) javascript(nodejs) html
 ### secondary
