@@ -12,3 +12,5 @@ javascript javascriot(jquery) javascript(nodejs) html
 ejs
 ### least
 css
+
+- [x] Finish my changes
