@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <% include ../partials/head.ejs %>
+        <title>List of something</title>
+        <script src="/javascript/global.js"></script>
+        <script src="/javascript/bmiResult.js"></script>
+            <style>
+                body {
+                    color: aliceblue;
+                    background-image: url("");
+                    font-family: 'Kanit';
+            
+                }
+            
+                .about {
+                    font-size: 17px;
+                    color: white;
+                    background-color: rgb(0, 0, 0);
+                }
+            
+                .parallax4 {
+                    /* The image used */
+                    background-image: url("https://marvel-live.freetls.fastly.net/canvas/2019/3/5758a9ebfdbb4c55af4b28b112b10ece?quality=95&fake=.png");
+                    /* Set a specific height */
+                    min-height: 845px;
+                    /* Create the parallax scrolling effect */
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            </style>
+    </head>
+    <body>
+        <% include ../partials/loader.ejs %>
+        <% include ../partials/headSection.ejs %>
+            <form>
+                <div class="parallax4" style="text-align: center; font-size: 25px ">
+                    <div class="container">
+                        <div class="form-group row">
+                            <label style="margin-top:200px ;" for="inputHeight"
+                                class="col-sm-3 col-form-label">ส่วนสูงของคุณคือ</label>
+                            <div style="margin-top:200px ;" class="col-sm-4">
+                                <input disabled type="number" class="form-control" id="inputHeight" placeholder="ส่วนสูง (CM.)" value="<%= height %>">
+                            </div>
+                        </div>
+            
+                        <div class="form-group row ">
+                            <label for="inputWeight" class="col-sm-3 col-form-label">นํ้าหนักของคุณคือ</label>
+                            <div class="col-sm-4">
+                                <input disabled type="number" class="form-control" id="inputWeight" placeholder="นํ้าหนัก (KG.)" value="<%= weight %>">
+                            </div>
+                        </div>
+            
+                        <div class="form-group row ">
+                            <label for="inputWeight" class="col-sm-3 col-form-label">ค่า BMI ของคุณคือ</label>
+                            <div class="col-sm-4">
+                                <input disabled type="number" class="form-control" id="inputWeight" placeholder="นํ้าหนัก (KG.)" value="<%= result %>">
+                            </div>
+                        </div>
+            
+                    </div>
+            
+            
+                </div>
+            </form>
+    </body>
+</html>
