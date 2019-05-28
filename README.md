@@ -7,11 +7,11 @@ This project was created and implemented by [Thiti Mahawannakit](https://www.fac
 
 **Note: The lists below here are the language used**
 ### main
-javascript javascriot(jquery) javascript(nodejs) html
+`javascript javascriot(jquery) javascript(nodejs) html`
 ### secondary
-ejs
+`ejs`
 ### least
-css
+`css`
 
 Current-Progress
 - [x] finished project
